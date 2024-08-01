@@ -11,6 +11,9 @@
 		"enabled": false
 	},
 	"rangeStrategy": "bump",
+	"postUpdateOptions": [
+		"pnpmDedupe"
+	],
 	"npm": {
 		"commitMessageTopic": "{{prettyDepType}} {{depName}}"
 	}
