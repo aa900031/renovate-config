@@ -8,9 +8,9 @@ Add this into `renovate.json`
 
 ```json
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "github>aa900031/renovate-config",
-  ]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"github>aa900031/renovate-config"
+	]
 }
 ```
