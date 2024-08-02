@@ -19,6 +19,6 @@
 		"eslint": "^9.7.0",
 		"npm-run-all2": "^6.2.2",
 		"release-it": "^17.6.0",
-		"renovate": "^38.16.0"
+		"renovate": "latest"
 	}
 }
