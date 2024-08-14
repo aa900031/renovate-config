@@ -28,6 +28,17 @@
 			"matchPackageNames": [
 				"*"
 			]
+		},
+		{
+			"groupName": "npm corepack non-major dependencies",
+			"groupSlug": "npm-package-manager-minor-patch",
+			"matchDepTypes": [
+				"packageManager"
+			],
+			"matchUpdateTypes": [
+				"minor",
+				"patch"
+			]
 		}
 	]
 }
