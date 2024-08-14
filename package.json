@@ -3,7 +3,7 @@
 	"type": "module",
 	"version": "0.0.0",
 	"private": true,
-	"packageManager": "pnpm@9.6.0",
+	"packageManager": "pnpm@9.7.0",
 	"author": "zhong666 <hi@zhong666.me>",
 	"license": "MIT",
 	"scripts": {
@@ -13,10 +13,10 @@
 		"release": "release-it --ci"
 	},
 	"devDependencies": {
-		"@aa900031/eslint-config": "^1.7.0",
+		"@aa900031/eslint-config": "^1.8.0",
 		"@release-it/conventional-changelog": "^8.0.1",
 		"conventional-changelog-unjs": "^0.1.2",
-		"eslint": "^9.8.0",
+		"eslint": "^9.9.0",
 		"npm-run-all2": "^6.2.2",
 		"release-it": "^17.6.0",
 		"renovate": "latest"
