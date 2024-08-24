@@ -19,6 +19,20 @@
 	},
 	"packageRules": [
 		{
+			"groupName": "npm non-major dev dependencies",
+			"groupSlug": "npm-dev-minor-patch",
+			"matchDepTypes": [
+				"devDependencies"
+			],
+			"matchUpdateTypes": [
+				"minor",
+				"patch"
+			],
+			"matchPackageNames": [
+				"*"
+			]
+		},
+		{
 			"groupName": "{{manager}} non-major dependencies",
 			"groupSlug": "{{manager}}-minor-patch",
 			"matchUpdateTypes": [
