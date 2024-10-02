@@ -13,10 +13,10 @@
 		"release": "release-it --ci"
 	},
 	"devDependencies": {
-		"@aa900031/eslint-config": "^2.0.0",
+		"@aa900031/eslint-config": "^2.1.1",
 		"@release-it/conventional-changelog": "^8.0.2",
 		"conventional-changelog-unjs": "^0.1.2",
-		"eslint": "^9.10.0",
+		"eslint": "^9.11.1",
 		"npm-run-all2": "^6.2.3",
 		"release-it": "^17.6.0",
 		"renovate": "latest"
