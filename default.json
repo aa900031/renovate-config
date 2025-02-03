@@ -4,8 +4,7 @@
 		"config:recommended",
 		"group:allNonMajor",
 		":semanticCommitTypeAll(chore)",
-		":disablePeerDependencies",
-		":disableMajorUpdates"
+		":disablePeerDependencies"
 	],
 	"meteor": {
 		"enabled": false
@@ -27,6 +26,12 @@
 			],
 			"matchPackageNames": [
 				"*"
+			]
+		},
+		{
+			"enabled": false,
+			"matchUpdateTypes": [
+				"major"
 			]
 		},
 		{
