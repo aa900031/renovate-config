@@ -29,9 +29,16 @@
 			]
 		},
 		{
-			"enabled": false,
+			"groupName": "npm corepack major dependencies",
+			"groupSlug": "npm-package-manager-major",
+			"matchDepTypes": [
+				"packageManager"
+			],
 			"matchUpdateTypes": [
 				"major"
+			],
+			"matchPackageNames": [
+				"*"
 			]
 		},
 		{
@@ -49,16 +56,9 @@
 			]
 		},
 		{
-			"groupName": "npm corepack major dependencies",
-			"groupSlug": "npm-package-manager-major",
-			"matchDepTypes": [
-				"packageManager"
-			],
+			"enabled": false,
 			"matchUpdateTypes": [
 				"major"
-			],
-			"matchPackageNames": [
-				"*"
 			]
 		}
 	]
