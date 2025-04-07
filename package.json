@@ -9,16 +9,12 @@
 	"scripts": {
 		"validate:default": "renovate-config-validator default.json",
 		"test": "run-p validate:*",
-		"lint": "eslint .",
-		"release": "release-it --ci"
+		"lint": "eslint ."
 	},
 	"devDependencies": {
 		"@aa900031/eslint-config": "^3.1.0",
-		"@release-it/conventional-changelog": "^8.0.2",
-		"conventional-changelog-unjs": "^0.1.2",
 		"eslint": "^9.24.0",
 		"npm-run-all2": "^7.0.2",
-		"release-it": "^17.11.0",
 		"renovate": "latest"
 	}
 }
