@@ -19,6 +19,12 @@
 	},
 	"packageRules": [
 		{
+			"enabled": false,
+			"matchUpdateTypes": [
+				"major"
+			]
+		},
+		{
 			"groupName": "npm corepack major dependencies",
 			"groupSlug": "npm-package-manager-major",
 			"matchDepTypes": [
@@ -70,12 +76,6 @@
 				"*"
 			],
 			"enabled": true
-		},
-		{
-			"enabled": false,
-			"matchUpdateTypes": [
-				"major"
-			]
 		}
 	]
 }
