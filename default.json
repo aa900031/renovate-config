@@ -26,9 +26,7 @@
 			"matchUpdateTypes": [
 				"major"
 			],
-			"matchPackageNames": [
-				"*"
-			]
+			"enabled": true
 		},
 		{
 			"groupName": "npm corepack non-major dependencies",
@@ -40,9 +38,7 @@
 				"minor",
 				"patch"
 			],
-			"matchPackageNames": [
-				"*"
-			]
+			"enabled": true
 		},
 		{
 			"groupName": "{{manager}} non-major dependencies",
@@ -56,7 +52,8 @@
 			],
 			"matchPackageNames": [
 				"*"
-			]
+			],
+			"enabled": true
 		},
 		{
 			"groupName": "{{manager}} non-major develop dependencies",
@@ -70,7 +67,8 @@
 			],
 			"matchPackageNames": [
 				"*"
-			]
+			],
+			"enabled": true
 		},
 		{
 			"enabled": false,
