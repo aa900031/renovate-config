@@ -70,12 +70,6 @@
 				"*"
 			],
 			"enabled": true
-		},
-		{
-			"enabled": false,
-			"matchUpdateTypes": [
-				"major"
-			]
 		}
 	]
 }
