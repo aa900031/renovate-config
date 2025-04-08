@@ -4,7 +4,8 @@
 		"config:recommended",
 		"group:allNonMajor",
 		":semanticCommitTypeAll(chore)",
-		":disablePeerDependencies"
+		":disablePeerDependencies",
+		"schedule:weekends"
 	],
 	"meteor": {
 		"enabled": false
@@ -17,17 +18,6 @@
 		"commitMessageTopic": "{{prettyDepType}} {{depName}}"
 	},
 	"packageRules": [
-		{
-			"groupName": "{{manager}} non-major dependencies",
-			"groupSlug": "{{manager}}-minor-patch",
-			"matchUpdateTypes": [
-				"minor",
-				"patch"
-			],
-			"matchPackageNames": [
-				"*"
-			]
-		},
 		{
 			"groupName": "npm corepack major dependencies",
 			"groupSlug": "npm-package-manager-major",
@@ -50,6 +40,34 @@
 			"matchUpdateTypes": [
 				"minor",
 				"patch"
+			],
+			"matchPackageNames": [
+				"*"
+			]
+		},
+		{
+			"groupName": "{{manager}} non-major dependencies",
+			"groupSlug": "{{manager}}-minor-patch",
+			"matchUpdateTypes": [
+				"minor",
+				"patch"
+			],
+			"matchDepTypes": [
+				"dependencies"
+			],
+			"matchPackageNames": [
+				"*"
+			]
+		},
+		{
+			"groupName": "{{manager}} non-major develop dependencies",
+			"groupSlug": "{{manager}}-dev-minor-patch",
+			"matchUpdateTypes": [
+				"minor",
+				"patch"
+			],
+			"matchDepTypes": [
+				"devDependencies"
 			],
 			"matchPackageNames": [
 				"*"
