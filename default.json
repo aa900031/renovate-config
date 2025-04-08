@@ -4,8 +4,7 @@
 		"config:recommended",
 		"group:allNonMajor",
 		":semanticCommitTypeAll(chore)",
-		":disablePeerDependencies",
-		"schedule:weekends"
+		":disablePeerDependencies"
 	],
 	"meteor": {
 		"enabled": false
