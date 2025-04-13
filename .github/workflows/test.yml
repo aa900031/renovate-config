@@ -13,20 +13,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-
-      - name: Setup Nodejs
-        uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          cache: pnpm
-          registry-url: https://registry.npmjs.org/
-          node-version-file: .tool-versions
+          fetch-depth: 0
 
-      - name: Install Dependencies
-        run: pnpm i
+      - name: Setup
+        uses: aa900031/github-actions/setup-node@main
+        with:
+          no-turbo-cache: 'true'
 
       - name: Test configs
         run: pnpm test
