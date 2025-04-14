@@ -19,7 +19,7 @@ importers:
         version: 7.0.2
       renovate:
         specifier: latest
-        version: 39.235.0(encoding@0.1.13)(typanion@3.14.0)
+        version: 39.241.1(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -684,8 +684,8 @@ packages:
     resolution: {integrity: sha512-xhFTlmZhP60n44d3voXM0WF09cJM59Ua1WhcfSYh1AiafKbTqiXQcfbDLoneLAGjYn5ZsSaN1/uIDJbGULTDfw==}
     engines: {node: '>=18.12.0'}
 
-  '@renovatebot/osv-offline@1.6.4':
-    resolution: {integrity: sha512-/zKTvQNX9/P3fy6/7f0TJd8W/WywD837xCLrvptbuXx0RjgOn5wOs+eFmeEOTmMyxfM5YhvTPdrLzC+jO3toJA==}
+  '@renovatebot/osv-offline@1.6.5':
+    resolution: {integrity: sha512-WtGzUvr1QgQZCxoeSqDcLI16otvaPzIUq/Mn+LkZZtX4pRxJ5SIiL0/Eiirc2ngAIWi2ihvnG9DHvRBK8trK2g==}
     engines: {node: '>=18.12.0'}
 
   '@renovatebot/pep440@4.1.0':
@@ -1451,8 +1451,8 @@ packages:
     resolution: {integrity: sha512-onMB0OkDjkXunhdW9htFjEhqrD54+M94i6ackoUkjHKbRnXdyEyKRelp4nJ1kAz32+s27jP1FsebpJCVl0BsvA==}
     engines: {node: '>=18.0'}
 
-  cronstrue@2.57.0:
-    resolution: {integrity: sha512-gQOfxJa1RA9uDT4hx37NshhX4dW9t9zTCtIYu15LUziH+mkpuLXYcSEyM8ZewMJ2p8UVuHGjI3n4hGpu3HtCbg==}
+  cronstrue@2.58.0:
+    resolution: {integrity: sha512-5P3esL5URj/u1h7N1zYl33V9XHNh15DQVGQITdIq7kAY78rP9tMYxXgi8kCXGoFqbyXFMMQRvzthHTYxUtp9Fw==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -2517,8 +2517,8 @@ packages:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
 
-  luxon@3.6.0:
-    resolution: {integrity: sha512-WE7p0p7W1xji9qxkLYsvcIxZyfP48GuFrWIBQZIsbjCyf65dG1rv4n83HcOyEyhvzxJCrUoObCRNFgRNIQ5KNA==}
+  luxon@3.6.1:
+    resolution: {integrity: sha512-tJLxrKJhO2ukZ5z0gyjY1zPh3Rh88Ej9P7jNrZiHMUXHae1yvI2imgOZtL1TO8TW6biMMKfTtAOoEJANgtWBMQ==}
     engines: {node: '>=12'}
 
   magic-string@0.30.17:
@@ -3248,8 +3248,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.235.0:
-    resolution: {integrity: sha512-AwcpjMxG1+5UM+yOphcNI2BpmcD/0cy0ub03jEL1uf2x3DDDlYcC/nKy3X5CMa1fimufZOdFadjPdkk0j3B0jQ==}
+  renovate@39.241.1:
+    resolution: {integrity: sha512-jH2IJu16JGr6cLZ4p+BmYlk6Y8Lb7HK/ilqBjbv376/3dPtpUJvXBN3fJQWGa2MXsYFZxA9JiZUWAhgfPF+ueA==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3865,11 +3865,6 @@ packages:
   yaml-eslint-parser@1.3.0:
     resolution: {integrity: sha512-E/+VitOorXSLiAqtTd7Yqax0/pAS3xaYMP+AUUJGOK1OZG3rhcj9fcJOM5HJ2VrP1FrStVCWr1muTfQCdj4tAA==}
     engines: {node: ^14.17.0 || >=16.0.0}
-
-  yaml@2.7.0:
-    resolution: {integrity: sha512-+hSoy/QHluxmC9kCIJyL/uyFmLmc+e5CFR5Wa+bpIhIj85LVb9ZH2nVnqrHoSvKogwODv0ClqZkmiSSaIH5LTA==}
-    engines: {node: '>= 14'}
-    hasBin: true
 
   yaml@2.7.1:
     resolution: {integrity: sha512-10ULxpnOCQXxJvBgxsn9ptjq6uviG/htZKk9veJGhlqn3w/DxQ631zFF+nlQXLwmImeS5amR2dl2U8sg6U9jsQ==}
@@ -5242,13 +5237,13 @@ snapshots:
     dependencies:
       '@seald-io/nedb': 4.1.1
 
-  '@renovatebot/osv-offline@1.6.4':
+  '@renovatebot/osv-offline@1.6.5':
     dependencies:
       '@renovatebot/osv-offline-db': 1.7.3
       adm-zip: 0.5.16
       fs-extra: 11.3.0
       got: 11.8.6
-      luxon: 3.6.0
+      luxon: 3.6.1
 
   '@renovatebot/pep440@4.1.0': {}
 
@@ -6206,7 +6201,7 @@ snapshots:
 
   croner@9.0.0: {}
 
-  cronstrue@2.57.0: {}
+  cronstrue@2.58.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -7361,7 +7356,7 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  luxon@3.6.0: {}
+  luxon@3.6.1: {}
 
   magic-string@0.30.17:
     dependencies:
@@ -8164,7 +8159,7 @@ snapshots:
 
   pnpm-workspace-yaml@0.3.1:
     dependencies:
-      yaml: 2.7.0
+      yaml: 2.7.1
 
   possible-typed-array-names@1.0.0: {}
 
@@ -8377,7 +8372,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.235.0(encoding@0.1.13)(typanion@3.14.0):
+  renovate@39.241.1(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.777.0
       '@aws-sdk/client-ec2': 3.779.0
@@ -8403,7 +8398,7 @@ snapshots:
       '@qnighy/marshal': 0.1.3
       '@renovatebot/detect-tools': 1.1.0
       '@renovatebot/kbpgp': 4.0.1
-      '@renovatebot/osv-offline': 1.6.4
+      '@renovatebot/osv-offline': 1.6.5
       '@renovatebot/pep440': 4.1.0
       '@renovatebot/ruby-semver': 4.0.0
       '@sindresorhus/is': 4.6.0
@@ -8423,7 +8418,7 @@ snapshots:
       commander: 13.1.0
       conventional-commits-detector: 1.0.3
       croner: 9.0.0
-      cronstrue: 2.57.0
+      cronstrue: 2.58.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 6.1.0
@@ -8454,7 +8449,7 @@ snapshots:
       jsonata: 2.0.6
       jsonc-parser: 3.3.1
       klona: 2.0.6
-      luxon: 3.6.0
+      luxon: 3.6.1
       markdown-it: 14.1.0
       markdown-table: 2.0.0
       minimatch: 10.0.1
@@ -9140,9 +9135,7 @@ snapshots:
   yaml-eslint-parser@1.3.0:
     dependencies:
       eslint-visitor-keys: 3.4.3
-      yaml: 2.7.0
-
-  yaml@2.7.0: {}
+      yaml: 2.7.1
 
   yaml@2.7.1: {}
 
