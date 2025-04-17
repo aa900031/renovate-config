@@ -57,9 +57,6 @@
 			"matchDepTypes": [
 				"dependencies"
 			],
-			"matchPackageNames": [
-				"*"
-			],
 			"enabled": true
 		},
 		{
@@ -71,9 +68,6 @@
 			],
 			"matchDepTypes": [
 				"devDependencies"
-			],
-			"matchPackageNames": [
-				"*"
 			],
 			"enabled": true
 		}
