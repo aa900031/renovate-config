@@ -17,6 +17,8 @@
 	"npm": {
 		"commitMessageTopic": "{{prettyDepType}} {{depName}}"
 	},
+	"minimumReleaseAge": "7 days",
+	"prCreation": "not-pending",
 	"packageRules": [
 		{
 			"enabled": false,
@@ -69,7 +71,12 @@
 			"matchDepTypes": [
 				"devDependencies"
 			],
-			"enabled": true
+			"enabled": true,
+			"automerge": true,
+			"automergeSchedule": [
+				"every weekend",
+				"after 1am and before 2am"
+			]
 		}
 	]
 }
