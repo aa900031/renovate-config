@@ -12,8 +12,8 @@
 		"lint": "eslint ."
 	},
 	"devDependencies": {
-		"@aa900031/eslint-config": "^3.1.0",
-		"eslint": "^9.32.0",
+		"@aa900031/eslint-config": "^3.2.0",
+		"eslint": "^9.39.5",
 		"npm-run-all2": "^7.0.2",
 		"renovate": "latest"
 	}
